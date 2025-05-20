@@ -14,7 +14,7 @@ app.use(cors());
 // MongoDB Connection
 let URI = process.env.MONGO
 const local = 'mongodb://localhost:27017/auth'
-let Option = { user: 'sifat355y', pass: 'gKowylzIvl736M3I', autoIndex: true, useNewUrlParser: true, useUnifiedTopology: true }
+let Option = { user: process.env.USER, pass: process.env.PASS, autoIndex: true, useNewUrlParser: true, useUnifiedTopology: true }
 mongoose.connect(local)
     .then(() => {
         console.log('Connection Success');

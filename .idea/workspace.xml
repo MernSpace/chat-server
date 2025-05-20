@@ -28,12 +28,12 @@
     &quot;assignee&quot;: &quot;MernSpace&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MernSpace/chat-server.git",
-    "accountId": "28d50e48-1303-477a-bb6b-b0c0d83cbf9e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MernSpace/chat-server.git&quot;,
+    &quot;accountId&quot;: &quot;28d50e48-1303-477a-bb6b-b0c0d83cbf9e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747665180339</updated>
       <workItem from="1747665181748" duration="516000" />
-      <workItem from="1747698508053" duration="13379000" />
+      <workItem from="1747698508053" duration="13530000" />
     </task>
     <servers />
   </component>
