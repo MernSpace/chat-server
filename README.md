@@ -33,3 +33,18 @@ A secure, real-time chat backend built with **Node.js**, **Express**, **MongoDB*
 
 ## 📁 Folder Structure
 
+chat-server/
+├── config/
+│ └── redis.js # Redis connection config
+├── controllers/
+│ └── presenceController.js # Presence logic
+├── models/
+│ └── userModel.js # Mongoose user schema
+├── routes/
+│ └── chatRoutes.js # API routes
+├── utils/
+│ └── sanitize.js # Input sanitization
+├── index.js # Main app entry point
+├── package.json
+└── README.md
+
