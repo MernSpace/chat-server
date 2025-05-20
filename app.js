@@ -9,13 +9,10 @@ const mongoose = require('mongoose');
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({
-    origin: 'https://chat-app-client-rouge.vercel.app', // Remove the trailing slash
-    credentials: true
-}));
+app.use(cors());
 
 // MongoDB Connection
-let URI = "mongodb+srv://<username>:<password>@cluster0.g7zuc4b.mongodb.net/chat?retryWrites=true&w=majority"
+let URI = process.env.MONGO
 const local = 'mongodb://localhost:27017/auth'
 let Option = { user: 'sifat355y', pass: 'gKowylzIvl736M3I', autoIndex: true, useNewUrlParser: true, useUnifiedTopology: true }
 mongoose.connect(local)

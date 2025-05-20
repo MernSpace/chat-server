@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1e5760-fe52-49e0-b84e-4151bf140a25" name="Changes" comment="" />
+    <list default="true" id="6c1e5760-fe52-49e0-b84e-4151bf140a25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server-chat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -28,7 +30,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/MernSpace/server-chat.git",
+    "url": "https://github.com/MernSpace/chat-server.git",
     "accountId": "28d50e48-1303-477a-bb6b-b0c0d83cbf9e"
   }
 }]]></component>
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747665180339</updated>
       <workItem from="1747665181748" duration="516000" />
-      <workItem from="1747698508053" duration="13022000" />
+      <workItem from="1747698508053" duration="13379000" />
     </task>
     <servers />
   </component>
